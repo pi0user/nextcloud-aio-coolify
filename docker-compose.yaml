@@ -3,7 +3,7 @@ name: nextcloud-aio # Add the container to the same compose project like all the
 
 services:
   nextcloud-aio-mastercontainer:
-    image: ghcr.io/nextcloud-releases/all-in-one:latest
+    image: ghcr.io/nextcloud-releases/all-in-one:20261021_180331
     init: true
     container_name: nextcloud-aio-mastercontainer
     restart: always
